@@ -1,0 +1,270 @@
+#navbar-container{
+	background: rgba(255,255,255,0.1);
+}
+#navbar-default{
+    margin-bottom: 0px;
+    position: relative !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.btn-product{
+	width: 100%;
+}
+.rgba_black_3{
+    background: rgba(0,0,0,0.3);
+}
+.info-item{
+	background: rgba(255,255,255,0.4);
+}
+.items{
+	position: relative;
+	overflow: hidden;
+}
+.category-main-content{
+	background: rgba(255,255,255,0.5);
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url('../fonts/BebasNeue.ttf');
+}
+.category-clothes{
+	font: bold italic 30px BebasNeue !important;
+    color: white;
+}
+.item-button-view{
+	padding-left: 20px;
+	padding-right: 10px;
+    padding-bottom: 10px;
+}
+.item-button-success{
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.item-main{
+	margin-bottom: 15px;
+}
+
+.price{
+	font-size: 24px;
+}
+.btn-primary {
+    color: white;
+   	background-color: rgba(77, 157, 222, 0.63);
+    border-color: rgba(167, 203, 232, 0.93);
+}
+.btn-success {
+    color: white;
+    background-color: rgba(166, 206, 166, 0.86);
+    border-color: rgba(166, 206, 166, 0.96);
+}
+
+.filters{
+    background: rgba(255,255,255,0.4);
+    border-radius: 10px;
+}
+
+div.refine-controls{
+    
+    padding:0 10px 0 0;
+    
+}
+div.refine-controls div.refine-control-header{
+    border-top:1px solid #999;
+    clear:both;
+    overflow:hidden;
+    width:100%;
+    
+}
+
+div.refine-controls div.refine-control-header.top{
+    border-top:none
+}
+div.refine-controls div.refine-control-header p.title{
+    color:#000;
+    display:inline;
+    float:left;
+    font-family:Georgia;
+    font-size:1.7em;
+    font-weight:normal;
+    margin:0;
+    padding:5px 0 14px;
+    text-transform:uppercase;
+}
+div.refine-controls div.refine-control-header p.sub-title{
+    display:inline;
+    float:left;
+    font-size:1em;
+    margin:0;
+    padding:1em 0;
+    text-transform:uppercase;
+}
+div.refine-controls div.refine-control-header p.sub-title a{
+    font-weight:bold;
+}
+div.refine-controls div.refine-control-header p.sub-title a:hover{
+    text-decoration:none;
+}
+div.refine-controls div.refine-control-header a.clear-all{
+    float:right;
+    font-weight:bold;
+    padding:10px 0 0;
+}
+div.refine-controls div.refine-control-header a.clear{
+    float:right;
+    font-weight:bold;
+    padding:1em 0;
+}
+div.refine-controls div.refine-control-header a.toggleControl{
+    color:#000;
+    display:block;
+    float:left;
+    font-family:Tahoma;
+    padding:0 0 0 1.5em;
+}
+div.refine-controls div.refine-control-header a.toggleControl.closed{
+    background-position:4px -8px;
+}
+div.refine-controls div.control{
+    overflow:visible;
+    position:relative;
+}
+div.refine-controls div.control input{
+    border:0;
+    color:#666;
+    height:1.5em;
+    width:30px;
+}
+div.refine-controls div.control .price-tip{
+    font-size:1.1em;
+}
+div.refine-controls div.control .slider-price-user-min{
+    float:left;
+}
+div.refine-controls div.control .slider-price-user-max{
+    float:right;
+}
+div.refine-controls div.control .min{
+    float:left;
+    visibility:hidden;
+}
+div.refine-controls div.control .max{
+    float:right;
+    visibility:hidden;
+}
+div.refine-controls div.control ul{
+    overflow:auto;
+    padding:1px;
+}
+div.refine-controls div.control ul.scrollable{
+    border:1px solid #ccc;
+    height:130px;
+    overflow:auto;
+}
+div.refine-controls div.control ul.expanded{
+    height:auto;
+    overflow:auto;
+}
+div.refine-controls .control.hidden{
+    display:none;
+}
+div.refine-controls ul{
+    clear:both;
+    margin:0 0 1em;
+}
+div.refine-controls ul li{
+    clear:both;
+    list-style:none;
+    margin:1px 0;
+}
+div.refine-controls ul li a{
+
+    clear:both;
+    color:#ddd;
+    cursor:default;
+    display:block;
+    float:left;
+    font-size:1.1em;
+    padding:1px 0 1px 15px;
+}
+div.refine-controls ul li a:hover{
+    text-decoration:none;
+}
+div.refine-controls ul li a.selected{
+    background-position:-30px -37px;
+    color:#ddd;
+    cursor:pointer;
+}
+div.refine-controls ul li a.enabled,div.refine-controls ul li a.enabled.disabled{
+    background-position:-70px 3px;
+    color:#666;
+    cursor:pointer;
+}
+div.refine-controls ul li a.selected.disabled,div.refine-controls ul li a.selected.enabled.disabled{
+    background-position:-50px -17px;
+}
+div.refine-controls ul li a.selected:hover{
+    background-position:-50px -17px;
+    color:#666;
+    text-decoration:underline;
+}
+div.refine-controls ul li a.enabled:hover{
+    text-decoration:underline;
+}
+div.refine-controls ul>li a.enabled.selected{
+    background-position:-50px -17px;
+    color:#666;
+}
+div.refine-controls ul li a.selected-enabled{
+    background-position:-50px -17px;
+    color:#666;
+}
+div.refine-controls ul li a.disabled{
+    background-position:-10px -57px;
+    color:#ddd;
+    cursor:default;
+}
+div.refine-controls ul li a.selected.disabled:hover,div.refine-controls ul li a.enabled.disabled:hover,div.refine-controls ul li a.selected.enabled.disabled:hover,div.refine-controls ul li a.disabled:hover{
+    text-decoration:none;
+}
+div.refine-controls ul#Rf-200 li{
+    clear:none;
+    float:left;
+    margin:1px 0 0;
+    width:49%;
+}
+div.refine-controls ul#Rf-200 li a{
+    float:none;
+}
+div.refine-controls div#Rf-800{
+    margin:0 0 1em;
+    overflow:auto;
+    visibility:hidden;
+}
+div.refine-controls div.slider-container{
+    padding:0 4px;
+}
+div.refine-controls .ui-slider{
+    background:#dcd1bb;
+    border-bottom:1px solid #959485;
+    border-top:1px solid #959485;
+    height:4px;
+    margin:6px 0 11px;
+    position:relative;
+}
+div.refine-controls .ui-slider-range{
+    background:#464646;
+    font-size:4px;
+    height:4px;
+    position:absolute;
+}
+div.refine-controls .ui-slider-handle{
+
+    height:15px;
+    left:0;
+    margin-left:-4px;
+    position:absolute;
+    top:-5px;
+    width:8px;
+    z-index:1;
+}
